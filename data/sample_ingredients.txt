@@ -1,0 +1,184 @@
+COSMETIC INGREDIENT SAFETY DATABASE
+====================================
+
+## SODIUM LAURYL SULFATE (SLS)
+Safety Score: 4/10 - MODERATE TO HIGH RISK
+Description: Anionic surfactant commonly used in shampoos and cleansers
+Health Concerns:
+- Skin irritant and sensitizer
+- Can strip natural oils from skin and hair
+- May cause scalp irritation and dandruff
+- Potential respiratory irritant if inhaled
+Sources of Concern:
+- Dermatological Journal of Cosmetic Chemistry
+- FDA Cosmetic Ingredient Review Panel
+Safer Alternatives: Sodium Lauryl Glucose Carboxylate, Coco-Glucosides
+
+## PARABENS (Methylparaben, Propylparaben, Butylparaben)
+Safety Score: 5/10 - MODERATE RISK
+Description: Preservatives used to prevent bacterial/fungal growth
+Health Concerns:
+- Endocrine disruptor (mimics estrogen)
+- Associated with breast cancer concerns (controversial)
+- Can accumulate in body tissues
+- May cause contact dermatitis in sensitive individuals
+Specific Risks:
+- Butylparaben: Highest estrogenic activity
+- Propylparaben: Strong antimicrobial but higher penetration
+- Methylparaben: Most commonly used, lower risk than others
+Regulatory Status: Banned in EU, still permitted in US with restrictions
+Safer Alternatives: Phenoxyethanol, Potassium Sorbate, Sodium Benzoate
+
+## FRAGRANCE (Parfum)
+Safety Score: 3/10 - HIGH RISK
+Description: Synthetic or natural scent compounds (often hidden ingredient)
+Health Concerns:
+- Can contain 3,000+ undisclosed chemicals
+- Known allergen and irritant
+- May contain phthalates (endocrine disruptors)
+- Linked to asthma and respiratory issues
+Specific Issues:
+- "Fragrance" is often proprietary blend not fully disclosed
+- Phthalates associated with reproductive issues
+- Contact sensitizer and photoallergen
+Medical Research: NIH study (2021) identified harmful volatile compounds
+Safer Alternatives: Essential oils, fragrance-free products, natural botanicals
+
+## RETINOL (Retinyl Palmitate, Retinoids)
+Safety Score: 6/10 - MODERATE CONCERN (especially in pregnancy)
+Description: Vitamin A derivative used for anti-aging
+Health Concerns:
+- Teratogenic (may cause birth defects) during pregnancy
+- Can increase skin sensitivity and photosensitivity
+- May increase sun damage if not properly formulated
+- Excessive use can cause vitamin A toxicity
+Pregnancy Considerations:
+- NOT recommended during pregnancy/breastfeeding
+- Topical retinol has lower absorption than oral, but still risky
+- Category C/X depending on concentration
+Safe Usage: Pregnancy-safe alternatives include niacinamide, vitamin C
+Safer Alternatives: Retinol esters (more stable, less irritating), Bakuchiol
+
+## FORMALDEHYDE & FORMALDEHYDE RELEASERS (DMDM Hydantoin, Imidazolidinyl Urea)
+Safety Score: 2/10 - HIGH RISK/CARCINOGEN
+Description: Preservatives that release formaldehyde over time
+Health Concerns:
+- Known carcinogen (IARC Group 1)
+- Contact allergen and sensitizer
+- Can cause respiratory issues
+- Accumulates with repeated exposure
+Regulatory Status: Restricted in many countries, limited use in US
+Found In: Some nail polishes, certain hair treatments, makeup
+Medical Evidence: Strong association with nasopharyngeal cancer
+Safer Alternatives: Plant-based preservatives, Sodium Benzoate, Potassium Sorbate
+
+## PHTHALATES (DBP, DEHP, DIP)
+Safety Score: 2/10 - HIGH RISK
+Description: Plasticizers used to make fragrances last longer
+Health Concerns:
+- Endocrine disruptors (damage reproductive system)
+- Associated with developmental issues in male fetuses
+- Bioaccumulative
+- May cause liver and kidney damage
+Sources: Fragrances, nail polish, hair spray
+Regulatory Status: Banned in EU and Canada, restricted in US
+Safer Alternatives: Phthalate-free fragrances, fragrance-free products
+
+## LEAD & HEAVY METALS (Lead, Cadmium, Arsenic)
+Safety Score: 1/10 - CRITICAL RISK
+Description: Toxic metals found in some makeup, especially lipsticks
+Health Concerns:
+- Known neurotoxins (especially lead)
+- Can accumulate in body over time
+- Associated with cognitive decline, behavioral issues
+- Cadmium is carcinogenic
+- Arsenic is Class A carcinogen
+Bioaccumulation: Daily cosmetic use leads to chronic exposure
+Medical Research: FDA testing (2021) found lead in 50% of lipstick samples
+Safer Alternatives: Clean cosmetic brands with heavy metal testing
+
+## BENZENE
+Safety Score: 1/10 - CRITICAL RISK
+Description: Volatile organic compound used in solvents
+Health Concerns:
+- Known carcinogen
+- Toxic to bone marrow (can cause leukemia)
+- Reproductive toxin
+- CNS depressant
+Regulatory Status: Banned in cosmetics in most countries but found as contaminant
+Safer Alternatives: Choose benzene-free certified products
+
+## CYCLOHEXASILOXANE (D5, Siloxanes)
+Safety Score: 4/10 - MODERATE RISK
+Description: Silicon compound used for smooth feel in cosmetics
+Health Concerns:
+- Suspected endocrine disruptor
+- Accumulates in environment and body tissues
+- May interfere with fertility
+- Bioaccumulative
+Found In: Primers, foundations, silicone-based products
+Regulatory Status: Being phased out in EU
+Safer Alternatives: Plant-derived silicones, mineral silicates
+
+## NIACINAMIDE (Vitamin B3)
+Safety Score: 9/10 - SAFE
+Description: Water-soluble vitamin used for skin health
+Benefits:
+- Reduces inflammation and redness
+- Improves skin barrier function
+- Anti-aging properties
+- Generally well-tolerated
+Side Effects: Minimal, occasional flushing in high concentrations
+Medical Evidence: Strong clinical data supporting safety and efficacy
+Recommended Use: Safe for all skin types, pregnancy-safe
+
+## HYALURONIC ACID
+Safety Score: 9/10 - SAFE
+Description: Humectant that holds water molecules
+Benefits:
+- Excellent hydration without irritation
+- Naturally found in skin
+- Anti-aging hydration
+- Safe for sensitive skin
+Side Effects: None known at cosmetic concentrations
+Medical Evidence: Extensively studied, safe profile confirmed
+Recommended Use: Daily use recommended for all skin types
+
+## VITAMIN C (L-Ascorbic Acid)
+Safety Score: 8/10 - SAFE (stability issues noted)
+Description: Antioxidant for brightening and anti-aging
+Benefits:
+- Collagen production booster
+- Brightens complexion
+- Protects against free radicals
+- Pregnancy-safe
+Considerations: Unstable, degrades quickly with exposure to light/air
+Forms: L-Ascorbic acid most effective but unstable; Sodium Ascorbate more stable
+Medical Evidence: Well-researched, strong safety data
+Recommended Use: Store in cool, dark place; use serums/powders for stability
+
+## ZINC OXIDE & TITANIUM DIOXIDE (Physical Sunscreen Actives)
+Safety Score: 9/10 - SAFE
+Description: Mineral sun protection filters
+Benefits:
+- Broad-spectrum UV protection
+- Generally recognized as safe (GRAS)
+- Non-irritating for sensitive skin
+- Safe during pregnancy
+Concerns: Potential nanoparticle penetration if particles <100nm (rare)
+Regulatory Status: Generally Recognized as Safe by FDA
+Recommended Use: Preferred choice for sensitive/reactive skin
+
+## GLYCERIN
+Safety Score: 10/10 - SAFE
+Description: Humectant derived from natural/synthetic sources
+Benefits:
+- Excellent hydration
+- Gentle and well-tolerated
+- Used in medical applications
+- Safe for all ages including pregnancy
+Side Effects: None at cosmetic concentrations
+Medical Evidence: Extensively studied, gold standard for safety
+Recommended Use: Daily use, all skin types, very gentle
+
+END OF DATABASE

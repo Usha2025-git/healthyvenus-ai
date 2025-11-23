@@ -1,0 +1,12 @@
+langchain
+openai
+chromadb
+fastapi
+uvicorn
+pypdf
+python-dotenv
+streamlit
+pillow
+pytesseract
+opencv-python
+pyzbar
