@@ -1,0 +1,43 @@
+entrypoint = "app.py"
+modules = ["python-3.10"]
+
+[nix]
+channel = "stable-23_05"
+
+[unitTest]
+language = "python3"
+
+[debugger]
+support = true
+
+[debugger.interactive]
+transport = "localhost:0"
+startCommand = ["dap-python", "debugpy.adapter"]
+
+[packager]
+language = "python3"
+ignoredPackages = ["unit_tests"]
+
+[packager.features]
+packageSearch = true
+guessImports = true
+enableGuessImports = true
+
+[languages.python3]
+pattern = "**/*.py"
+
+[languages.python3.LSP]
+url = "pylance"
+version = "latest"
+
+[[ports]]
+localPort = 8501
+externalPort = 80
+expose = true
+protocol = "http"
+
+[env]
+PYTHONUNBUFFERED = "1"
+STREAMLIT_SERVER_HEADLESS = "true"
+STREAMLIT_SERVER_PORT = "8501"
+STREAMLIT_SERVER_ADDRESS = "0.0.0.0"
