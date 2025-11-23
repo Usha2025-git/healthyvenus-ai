@@ -1,4 +1,4 @@
-entrypoint = "app.py"
+entrypoint = "deploy_replit.sh"
 modules = ["python-3.10"]
 
 [nix]
