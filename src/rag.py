@@ -7,11 +7,27 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Initialize embeddings
-embeddings = OpenAIEmbeddings(api_key=os.getenv("OPENAI_API_KEY"))
+# Lazy load embeddings and LLM
+embeddings = None
+llm = None
 
-# Initialize LLM
-llm = OpenAI(api_key=os.getenv("OPENAI_API_KEY"), temperature=0)
+def get_embeddings():
+    global embeddings
+    if embeddings is None:
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY environment variable not set")
+        embeddings = OpenAIEmbeddings(api_key=api_key)
+    return embeddings
+
+def get_llm():
+    global llm
+    if llm is None:
+        api_key = os.getenv("OPENAI_API_KEY")
+        if not api_key:
+            raise ValueError("OPENAI_API_KEY environment variable not set")
+        llm = OpenAI(api_key=api_key, temperature=0)
+    return llm
 
 def chunk_text(text):
     """Split text into chunks for embedding"""
@@ -25,7 +41,7 @@ def build_vectorstore(chunks):
     """Create ChromaDB vector store from chunks"""
     vectorstore = Chroma.from_texts(
         texts=chunks,
-        embedding=embeddings,
+        embedding=get_embeddings(),
         collection_name="ingredient_safety_db"
     )
     return vectorstore
