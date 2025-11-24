@@ -1,0 +1,6 @@
+{
+  "deploymentId": "healthyvenus-ai",
+  "appName": "HealthyVenus.AI",
+  "mainFile": "app.py",
+  "pythonVersion": "3.9"
+}
