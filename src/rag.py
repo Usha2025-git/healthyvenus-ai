@@ -1,7 +1,7 @@
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.llms import OpenAI
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_openai import OpenAIEmbeddings
+from langchain_chroma import Chroma
+from langchain_openai import ChatOpenAI
 import os
 from dotenv import load_dotenv
 
@@ -26,7 +26,7 @@ def get_llm():
         api_key = os.getenv("OPENAI_API_KEY")
         if not api_key:
             raise ValueError("OPENAI_API_KEY environment variable not set")
-        llm = OpenAI(api_key=api_key, temperature=0)
+        llm = ChatOpenAI(api_key=api_key, temperature=0, model="gpt-3.5-turbo")
     return llm
 
 def chunk_text(text):

@@ -2,12 +2,12 @@ import sys
 import os
 sys.path.insert(0, os.path.dirname(__file__))
 
-from langchain.llms import OpenAI
+from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
 from rag import retrieve_context
 
 load_dotenv()
-llm = OpenAI(api_key=os.getenv("OPENAI_API_KEY"), temperature=0.3)
+llm = ChatOpenAI(api_key=os.getenv("OPENAI_API_KEY"), temperature=0.3, model="gpt-3.5-turbo")
 
 # ============ AGENT 1: INGREDIENT SCANNER ============
 def ingredient_scanner_agent(query, vectorstore):
@@ -34,11 +34,11 @@ Output format:
 
 Response:
 """
-    response = llm(prompt)
+    response = llm.invoke(prompt)
     return {
         "agent": "Ingredient Scanner",
         "retrieved_context": context,
-        "analysis": response
+        "analysis": response.content
     }
 
 # ============ AGENT 2: TOXICITY SCORING ============
@@ -79,10 +79,10 @@ Ingredient | Safety Score | Risk Category | Explanation
 
 Response:
 """
-    response = llm(prompt)
+    response = llm.invoke(prompt)
     return {
         "agent": "Toxicity Scoring",
-        "risk_analysis": response
+        "risk_analysis": response.content
     }
 
 # ============ AGENT 3: RECOMMENDATION ENGINE ============
@@ -124,10 +124,10 @@ Output format:
 
 Response:
 """
-    response = llm(prompt)
+    response = llm.invoke(prompt)
     return {
         "agent": "Recommendation Engine",
-        "recommendations": response
+        "recommendations": response.content
     }
 
 # ============ PIPELINE ORCHESTRATOR ============
